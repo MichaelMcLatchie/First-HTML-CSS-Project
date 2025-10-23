@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #f9f5ec;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #143553
+}
+
+#navbar img {
+    max-width: 160px;
+    height: 160px;
+    
+}
+
+#navbar a:hover {
+    color: white; 
+    transition: color 0.3s; 
+    text-decoration: underline;
+}
+
+
+#navbar ul {
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #FFE100;
+    font-size: 33px;
+    padding: 40px;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    background: 
+                url(./images/ukrainemain.webp);
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+.headercontent {
+    font-size: 27px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+    max-width: 700px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+#overview {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px 30px;
+    max-width: 100%;
+    height: auto;
+    background: 
+                 url(/images/ukrainenight.webp);
+    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+    color: white;
+    background-size: cover;
+    font-size : 24px;
+
+}
+
+#overview article {
+    border-radius: 30px;
+}
+
+#overview .section-language {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+#overview .section-attractions {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+#overview img {
+    height: 500px;
+    width: 500px;
+    
+
+}
+
+#overview div {
+    flex: 1;
+    border-radius: 20px; 
+    padding: 50px;
+    text-align: center;
+
+}
+
+#overview h2 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#overview ul {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    bottom: 40px;
+
+}
+
+#contact {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;                
+    padding: 50px 20px;
+    background-color: #4f687e;    
+}
+
+#contact h3{
+    text-align: center;
+}
+
+#authordetails {
+    background-color: #1E456E; 
+    color: #FFD700; 
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+#authordetails li {
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    border-bottom: 1px solid rgba(255,215,0,0.3); 
+}
+
+#authordetails a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#authordetails a:hover {
+    text-decoration: underline;
+}
+
+#userdetails {
+    background-color: #1E456E; 
+    color: #FFD700;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    max-width: 100%
+}
+
+#userdetails p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#userdetails form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #FFD700;
+    background-color: #143553;
+    color: #FFD700;
+    box-sizing: border-box;
+}
+
+#userdetails form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #FFD700;
+    background-color: #143553;
+    color: #FFD700;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFD700; 
+    color: #143553; 
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+#footer {
+    position: relative;            
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #143553;
+    color: #FFE100;
+}
+
+.footer-center {
+    position: absolute;           
+    left: 48%;                    
+    color: #FFE100;
+}
+
+a:visited {
+    color: #FFE100;
+}
+
+/* ALPHABET PAGE START */
+
+#alphabetmain{
+    background-color: #f9f5ec;
+}
+
+#alphabetheader h2{
+    text-align: center;
+    max-width: 100%;
+    padding: 30px 200px;
+    font-size: 40px;
+    color: #143553;
+    margin-bottom: 16px
+}
+
+#alphabetheader p {
+    text-align: center;
+    max-width: 100%;
+    padding: 0px 200px;
+}
+
+#alphabettable{
+    margin: 20px auto;
+    background-color: #f9f5ec;
+}
+
+#alphabettable table {
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #f9f5ec;
+    border-collapse: separate;
+    
+}
+
+#alphabettable th {
+    background-color: #143553;
+    color:#FFD700;
+    padding: 15px;
+    font-size: 28px;
+
+}
+
+#alphabettable td {
+    padding: 10px;
+    font-size: 21px;
+}
+
+
+/* https://www.youtube.com/watch?v=0xfqu0UM0tU&ab_channel=Himel356 
+IF THIS BREAKS FOLLOW THIS */
+
+#alphabettable tr:nth-child(even) {
+    background-color: #fef9e6; 
+}
+
+#alphabettable tr:nth-child(odd) {
+    background-color: #e6f0ff; 
+}
+
+#alphabettable tr:hover {
+    background-color: #FFD700
+}
+
+#alphabetheader {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f5ec;
+}
+
+#alphabetheader h2 {
+    font-size: 40px;
+    color: #143553;
+    margin-bottom: 16px
+}
+
+#alphabetheader p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ALPHABET PAGE END */
+
+/* ATTRACTIONS PAGE START */
+
+#attractionsmain {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f5ec;
+}
+
+#attractionsmain h2 {
+    font-size: 40px;
+    color: #143553;
+    margin-bottom: 16px
+}
+
+#attractionsmain p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+#attractions {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 20px;
+    background-color: #f9f5ec;
+}
+
+#attractions div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+#attractions div:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#attractions img {
+    width: 60%;
+    border-radius: 12px;
+}
+
+#attractions h3 {
+    color: #143553;
+    margin-bottom: 18px;
+    font-size: 2rem;
+}
+
+#attractions p {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    color: #222;
+}
+ 
+
+
+ 
+/* ATTRACTIONS PAGE END */
+
+
+
